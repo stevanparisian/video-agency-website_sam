@@ -1,0 +1,18 @@
+[
+  {
+    "slug": "project-alpha",
+    "title": "Project Alpha",
+    "thumbnail": "/images/alpha-thumb.jpg",
+    "description": "Description for Project Alpha",
+    "mediaType": "image",
+    "mediaUrl": "/videos/alpha.mp4"
+  },
+  {
+    "slug": "project-beta",
+    "title": "Project Beta",
+    "thumbnail": "/images/beta-thumb.jpg",
+    "description": "Description for Project Beta",
+    "mediaType": "video",
+    "mediaUrl": "/videos/beta.mp4"
+  }
+]

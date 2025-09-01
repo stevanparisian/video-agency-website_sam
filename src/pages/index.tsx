@@ -1,3 +1,14 @@
+codex/add-herovideo-component-with-styles
+import React from 'react';
+import HeroVideo from '../components/HeroVideo';
+
+const Home: React.FC = () => (
+  <main>
+    <HeroVideo />
+  </main>
+);
+
+export default Home;
 import Head from "next/head";
 
 export default function Home() {
@@ -13,3 +24,4 @@ export default function Home() {
     </>
   );
 }
+ main

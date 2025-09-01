@@ -13,3 +13,18 @@ export async function cfFetch<T>(path: string) {
   if (!res.ok) throw new Error(`Contentful ${res.status}`);
   return (await res.json()) as T;
 }
+
+export type Project = {
+  sys: { id: string };
+  fields: {
+    title: string;
+    thumbnail?: { fields: { file: { url: string } } };
+  };
+};
+
+export async function getProjects() {
+  const { items } = await cfFetch<{ items: Project[] }>(
+    "entries?content_type=project&include=1"
+  );
+  return items;
+}

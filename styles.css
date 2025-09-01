@@ -1,0 +1,67 @@
+/* Base styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  line-height: 1.5;
+}
+
+header,
+section {
+  padding: 2rem;
+}
+
+.hero {
+  text-align: center;
+  background: #111;
+  color: #fff;
+  padding: 6rem 2rem;
+}
+
+.features {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.feature {
+  background: #f3f3f3;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+.feature:hover {
+  transform: scale(1.05);
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+/* Responsive layout */
+@media (min-width: 640px) {
+  .features {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .hero h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero h1 {
+    font-size: 4rem;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

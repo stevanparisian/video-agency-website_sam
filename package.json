@@ -1,0 +1,18 @@
+{
+  "name": "video-agency-website_sam",
+  "version": "1.0.0",
+  "description": "Responsive web platform for a video and advertising production studio.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^15.5.2",
+    "next-i18next": "^15.4.2",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}

@@ -7,4 +7,29 @@ body {
   color: var(--fg);
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
 }
-a { color: inherit; text-decoration: none; }
+ a { color: inherit; text-decoration: none; }
+
+.hero-video {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.hero-video__media {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-video__overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--fg);
+  padding: 0 1rem;
+  background: rgba(0, 0, 0, 0.4);
+}

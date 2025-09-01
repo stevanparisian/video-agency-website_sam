@@ -1,0 +1,29 @@
+{
+  "name": "video-agency-website_sam",
+  "version": "1.0.0",
+  "description": "Responsive web platform for a video and advertising production studio.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "npm run lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "next": "^15.5.2",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "@types/react": "^19.1.12",
+    "eslint": "^9.34.0",
+    "eslint-config-next": "^15.5.2",
+    "typescript": "^5.9.2"
+  }
+}
